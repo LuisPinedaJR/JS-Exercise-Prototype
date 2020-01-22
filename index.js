@@ -43,14 +43,10 @@ function Person(name, age) {
   this.age = age
   this.stomach = []
 }
-Person.prototype.eat = function(name, age, someFood) {
-  this.name = name
-  this.age = age
-  this.stomach = [someFood]
+Person.prototype.eat = function(someFood) {
+  this.stomach = [someFood.length <= 10]
 }
-Person.prototype.poop = function(name, age) {
-  this.name = name
-  this.age = age
+Person.prototype.poop = function() {
   this.stomach = []
 }
 
