@@ -110,10 +110,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. refers to the owner object
+  2. in function this refers to global object
+  3. in event this refers to element that received the event
+  4. methods can refer to this
 */
 
 ///////// END OF CHALLENGE /////////
